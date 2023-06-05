@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Ms+Madi&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.row:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .row { display: inline-block; }
+* html .clearfix { height: 1%; }
+  .row { display: block; }
+
+.header {
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+.logo1 {
+    width: 370px;
+    display: block;
+
+}
+
+
+
+
+.sidebar2 {
+    width: 50%;
+    float: left;
+    height: 500px;
+    background-color: #006e0b;
+    
+}
+
+
+.inner-sidebar2 {
+    
+    height: 400px;
+    
+}
+
+.hp{
+    height: 500px;
+    width: 100%;
+    float: left;
+}
+.sidebar {
+    width: 50%;
+    float: left;
+    height: 500px;
+    background-color: #004ffa;
+    
+}
+
+
+.inner-sidebar {
+    
+    color: black ;
+    text-align: center;
+    
+    
+}
+
+.footer {
+    margin-top: 10px;
+}
+
+.inner-footer {
+    background: rgb(21, 0, 41);
+    height: 200px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+
+header {
+    width: 100%;
+    padding: 10px 0.5% 0px 0.5%;
+    background: transparent;
+    float: left;
+    position: fixed;
+}
+
+header #logo {
+    color: #fff;
+    cursor: pointer;
+}
+
+header #logo span {
+    font-size: 1.7em;
+    line-height: 45px;
+    margin-left: 40px;
+    font-family: 'Ms Madi',serif;
+}
+
+@media (min-width: 701px) {
+ #logo {
+     float: left;
+     width: 30%;
+     font-size: 1.1em;
+ }
+
+    #about {
+        float: right;
+        width: 67%;
+    }
+}
+
+@media (max-width: 700px) {
+    #logo {
+        margin-top: 15px;
+        width: 100%;
+        font-size: 1.5em;
+    }
+   
+    #about {
+        float: left;
+        width: 100%;
+    }
+}   
+#about a {
+    text-decoration: none;
+}
+#about {
+    text-align: right;
+    font-size: .9em;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-top: 25px;
+    display: flex;
+    
+}
+
+#about > a {color: transparent;}
+
+#about > a:hover {
+    color: #b0b0b0;
+    text-decoration: underline;
+}
+
+#about > a:not(:last-child) {
+    margin-right: 5%;
+}
+
+.fixed {
+    z-index: 5000;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+header.fixed #logo {
+   
+    
+}
+
+.fixed #about a {color: #343434;}
+.fixed #about a:hover {color: #9b9b9b;}
+
+#myVideo{
+    width: 100%;
+    height: 100%;
+}
+
+#top {
+    margin: 0;
+   
+    display:inline-block;
+    
+    
+    text-align: center;
+    color: black;
+}
+
+@media (min-width: 1001px) {
+    #top {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 651px) {
+    #top {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 650px) {
+    #top {
+        font-size: 1.3em;
+        
+    }
+}
+
+
+#top h1 {
+    padding-top: 20%;
+    font-family: 'Ms Madi',serif;
+}
+
+#top h3 {
+    color: #ccc;
+    font-family: 'Ms Madi',serif;
+}
+
+#main {
+    
+    float: left;
+    
+    
+    
+}
+
+@media (min-width: 1401px) {
+    #main {
+        padding: 100px 10%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 700px) {
+    #main div {
+        width: 98%!important;
+    }
+}
+
+#main div {
+    width: 48%;
+    margin-right: 2%;
+    float: left;
+}
+
+#main h2 {
+    font-size: 3em;
+}
+
+#main span {
+    color: #a0a0a0;
+}
+
+
+.inner-sidebar p{
+    
+    line-height: 0.9em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-top: calc(50vh - 3em);
+  }
+  
